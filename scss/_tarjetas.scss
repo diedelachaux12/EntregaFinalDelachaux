@@ -1,0 +1,65 @@
+.div-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  .productos {
+    display: flex;
+    flex-direction: row;
+    margin: 75px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .tarjeta {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4%;
+    box-shadow: -1px 3px 31px 3px rgba(0, 0, 0, 0.76);
+    -webkit-box-shadow: -1px 3px 31px 3px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: -1px 3px 31px 3px rgba(0, 0, 0, 0.76);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagentarjeta {
+    width: 100%;
+  }
+  
+  .descripcion-producto {
+    font-size: 14px;
+  }
+  
+  .boton-comprar {
+    box-shadow: -2px 3px 1px 0px #8a2a21;
+    background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+    background-color: #c62d1f;
+    border-radius: 15px;
+    border: 1px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 17px;
+    padding: 6px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #810e05;
+  
+    &:hover {
+      background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+      background-color: #f24437;
+    }
+  
+    &:active {
+      position: relative;
+      top: 1px;
+    }
+  }
+  

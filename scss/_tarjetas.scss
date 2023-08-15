@@ -27,6 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
   }
   
   .imagentarjeta {
@@ -34,7 +35,9 @@
   }
   
   .descripcion-producto {
-    font-size: 14px;
+    font-size: 13px;
+    font-family: Poppins;
+    justify-content: center;
   }
   
   .boton-comprar {
@@ -62,4 +65,8 @@
       top: 1px;
     }
   }
-  
+
+  .tarjeta:hover {
+    transform: translateY(-5px); /* Efecto de resaltado al hacer hover */
+    box-shadow: -1px 10px 20px 3px rgba(0, 0, 0, 0.4); /* Cambio en la sombra en hover */
+  }
